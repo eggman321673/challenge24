@@ -294,7 +294,7 @@
         const div = document.createElement('div');
         div.className = 'card';
         const img = document.createElement('img');
-        img.src = `cards/${getCardImageFilename(card)}`;
+        img.src = `${getCardImageFilename(card)}`;
         img.alt = `${card.suit} ${card.value}`;
         div.appendChild(img);
         grid.appendChild(div);
